@@ -51,6 +51,5 @@ DisplayBooks.propTypes={
     book: PropTypes.object.isRequired,
     changeShelf: PropTypes.func.isRequired,
     shelf: PropTypes.string.isRequired,
-    key: PropTypes.string.isRequired
   }
   

@@ -25,6 +25,9 @@ export default class SearchPage extends Component {
           })
           this.setState({ searchedBooks: filteredBooks})
         }
+        else{
+          this.setState({ searchedBooks:[] })
+        }
       }
 
       else{

@@ -35,7 +35,6 @@ class BooksApp extends React.Component {
   }
 
   render() {
-    console.log(this.state.shelvesBooks)
     return (
       <div>
         <Route exact path='/' render={({ history }) => (
